@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/command-spec.schema.json",
+  "command": "node",
+  "args": [
+    "echo-argv.mjs",
+    "path with spaces/file.txt",
+    "double quote: \"",
+    "single quote: '",
+    "$5 & 10% | `tick` \\ path",
+    "line 1\nline 2",
+    "кириллица and emoji 🧪"
+  ],
+  "cwd": ".",
+  "stdin": "stdin: quotes \"' and non-ASCII Привет\n",
+  "stdoutEncoding": "utf8",
+  "stderrEncoding": "utf8",
+  "timeoutMs": 30000
+}

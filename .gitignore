@@ -30,9 +30,9 @@ models/
 *.dll
 *.exe
 
-# Local agent state.
-.agent/
-.agent-io-safety/
+# Local agent state. Keep only the portable localization contract.
+.agent/*
+!.agent/localization.json
 
 # OS/editor noise.
 .DS_Store

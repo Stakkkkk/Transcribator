@@ -1,0 +1,4 @@
+interface:
+  display_name: "Safe Text I/O"
+  short_description: "Read and write text with exact encoding"
+  default_prompt: "Use $safe-text-io to inspect or modify these text files without encoding damage."
