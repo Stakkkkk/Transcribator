@@ -1,0 +1,41 @@
+node_modules/
+npm-debug.log*
+
+# Transcription inputs/outputs and local working data.
+artefacts/
+artifacts/
+in/
+out/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+*.wmv
+*.mov
+*.mkv
+*.srt
+*.vtt
+*-transcript.txt
+* - transcript.txt
+* - transcription.txt
+* - транскрипция.txt
+* - транскрипция.json
+* - субтитры.srt
+
+# Local model and binary mirrors.
+tools/whisper.cpp/
+models/
+*.bin
+*.dll
+*.exe
+
+# Local agent state.
+.agent/
+.agent-io-safety/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Audio Transcription"
+  short_description: "Local ffmpeg and whisper.cpp transcription"
+  default_prompt: "Use $transcribe-local-audio to transcribe a local audio or video file and save text, subtitles, and JSON outputs."
