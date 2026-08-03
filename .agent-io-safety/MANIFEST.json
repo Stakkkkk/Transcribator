@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "0.1.7",
+  "language": "ru",
+  "files": [
+    {
+      "path": "docs/codex-hooks.md",
+      "sha256": "e37e7b8672d34ae523c9fa8bb331ceb3c3af7ae27537bc0b6ac8f35efbdfa4dd"
+    },
+    {
+      "path": "docs/cursor-hooks.md",
+      "sha256": "259876d20e618dfcb30a2b2114897494de131086e670771c7f840a567d9fb9d3"
+    },
+    {
+      "path": "docs/external-tools.md",
+      "sha256": "02dff55560f230731fdd368e28500036c660d05497707953e00fea115805d596"
+    },
+    {
+      "path": "docs/field-notes.md",
+      "sha256": "1942cdae294cba226013e99df87b62950b41ac3ceec075d3e7f838f8367c1879"
+    },
+    {
+      "path": "docs/language-policy.md",
+      "sha256": "9d84dc7e7ce5457b9fefedf292eb7efae0f71ce814dbc203713ea29f7a01023a"
+    },
+    {
+      "path": "docs/localization.md",
+      "sha256": "ef42cafbff1623bc70decfdf2ee53c85a5719273c26cecbf525f6643318e2f36"
+    },
+    {
+      "path": "docs/project-skills-layering.md",
+      "sha256": "7e6b7f0240bf6d8a2284606d35e85ed8d6adbc172b0b281205b76ba76f566569"
+    },
+    {
+      "path": "docs/remote-io-recipes.md",
+      "sha256": "2e1eecbbc249cc0bb66b060260cbedd4024cdc399a874f0907b88aff83981526"
+    },
+    {
+      "path": "docs/ru/codex-hooks.md",
+      "sha256": "b73249866af7ac89310a97217c2f4b5b8b1b2d17aefe6bdeb917eebcc9d6faec"
+    },
+    {
+      "path": "docs/ru/cursor-hooks.md",
+      "sha256": "713cd5433ddbbd1a5d8e839c305efd02dc04b88473516af43dddccc3da5c85cc"
+    },
+    {
+      "path": "docs/ru/external-tools.md",
+      "sha256": "1dfc276b375947a6ea6369b60fd9295526c926e0c44804033d0c8979935df614"
+    },
+    {
+      "path": "docs/ru/field-notes.md",
+      "sha256": "38c3017b8098d02785f30fa86e5f02e182d17ab96f5370396da6dfc99c0b411c"
+    },
+    {
+      "path": "docs/ru/language-policy.md",
+      "sha256": "d74957f77a1f4ee7e01fcf51d5d6d4109ffed5c8f28dddcd859120e686d51089"
+    },
+    {
+      "path": "docs/ru/localization.md",
+      "sha256": "bdae05d779a9780f7585bf83c467494f2fb3ed2cf87fb610b06862cc267176bc"
+    },
+    {
+      "path": "docs/ru/project-skills-layering.md",
+      "sha256": "6d75cac90c8520e0dd8e8132396a40aa57e48811dfe6d918fdd6b5bc60ca244e"
+    },
+    {
+      "path": "docs/ru/remote-io-recipes.md",
+      "sha256": "ca966a5e9c7eb46a48b471f1a574e22a12b73efb5e393b8c4b159417bbc26df5"
+    },
+    {
+      "path": "examples/cursor-hooks/hooks.json",
+      "sha256": "66cfdad1971e0cedf25b4c90a54c298f2a844cfb92ee2a3ef214a65898c2fd9a"
+    },
+    {
+      "path": "examples/cursor-hooks/io-safety-hook.mjs",
+      "sha256": "77e239184cea92e9ad2dacd98347cc6acd0f3bf8bdcea086e0cd4de87ee30cf1"
+    },
+    {
+      "path": "examples/echo-argv.mjs",
+      "sha256": "6965cff97d4dbb0352f52ad3d120e57c8cd2a21b54143f0c6cd5efba402d3a78"
+    },
+    {
+      "path": "examples/powershell-encoding.md",
+      "sha256": "1a2dd81a22c7c8ef8b5fe03148ca0fde1f31ea774aeb71b4b10b1306435120f8"
+    },
+    {
+      "path": "examples/powershell-select-object.md",
+      "sha256": "f06fb743afdeeaaa608784e1befed4f8a7c6ca3006f56491f88698561df74dd2"
+    },
+    {
+      "path": "examples/powershell-ssh-newlines.md",
+      "sha256": "b67214201845b1ada254695745e6fc65d6ea0e99683309e44f68a0a50510feea"
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "7330d707636a69f96f60fd87bbdc543273f67e2cb8417e87e8bba1824694fb21"
+    },
+    {
+      "path": "examples/remote-script-boundaries.md",
+      "sha256": "081cb38cf23d75ee3eef7a4b9bd0491c1152d19059cf93a52d6621ca15e781d1"
+    },
+    {
+      "path": "examples/ripgrep-leading-dash.md",
+      "sha256": "c126c05b92489c137872ee6415163040fd8a8ae9b6aee051e336583032d4bd33"
+    },
+    {
+      "path": "examples/safe-shell-command.json",
+      "sha256": "e0fdd6aa57fd568f02ae9e5f5e3f7369dca0bd773902da7cbe8d6d513dd8c472"
+    },
+    {
+      "path": "examples/windows-powershell-ssh-command.json",
+      "sha256": "9933948cb0a511c16d4825f804ce7f7dc582b6f7050b6e57ce4a008c09c2e826"
+    },
+    {
+      "path": "examples/windows-powershell-ssh-stdin.ps1",
+      "sha256": "738635ea83038c0443b16bfd68875dfda4c30c2bae9f46168db4dcf143b84e94"
+    },
+    {
+      "path": "examples/windows-powershell-ssh.md",
+      "sha256": "859c8905b877c36b8535ea3505deb8937aa0d167a9fc7c1568e1eebad633d03d"
+    },
+    {
+      "path": "RULE.md",
+      "sha256": "8443ff7698aa114a985e35dff322f57f2d252e8649a2a83509ecd83d85e169a9"
+    },
+    {
+      "path": "skills/safe-shell-io/agents/openai.yaml",
+      "sha256": "e467c8d584995c668efbeecfe06e504e0403bab2b04c69010fb46ef94224fcb8"
+    },
+    {
+      "path": "skills/safe-shell-io/references/spec-format.md",
+      "sha256": "ecc3e54f573a419c1fd88490699bf60e0570b845d08771b9e5329166c6df3dec"
+    },
+    {
+      "path": "skills/safe-shell-io/scripts/remote-bash.mjs",
+      "sha256": "ed52ed9f6b5428e4639d8c99a1ce59385026e0d5e19c401c8c623e033b6fa4e7"
+    },
+    {
+      "path": "skills/safe-shell-io/scripts/run-from-spec.mjs",
+      "sha256": "d1b3dfa93c1b3cb78420803529a848d759be7216e3dc1bbea0d111fa925b3e50"
+    },
+    {
+      "path": "skills/safe-shell-io/scripts/run-node-utf8.mjs",
+      "sha256": "cd4370a8ba0024330056d128f17d86113b460377a59121e08262be2a860503cc"
+    },
+    {
+      "path": "skills/safe-shell-io/SKILL.md",
+      "sha256": "8628f622dce8771835bc4f6709ecde5913a306d19cd2fc6b78c4e45cf205b090"
+    },
+    {
+      "path": "skills/safe-text-io/agents/openai.yaml",
+      "sha256": "af965bc490c5bc2001d4f9a1f7f0bb0c2368f989ff6b91090f3264555bff98be"
+    },
+    {
+      "path": "skills/safe-text-io/references/encoding-policy.md",
+      "sha256": "f37ac53d76ee4c595537d39f0a3e0cdce966ec595b246994248eb690237733f4"
+    },
+    {
+      "path": "skills/safe-text-io/scripts/inspect-text.mjs",
+      "sha256": "12a7e5a232d7cc3bb8840c873c3ccd9c5f8e2f10e6e46e745ae3ca2d97a04c45"
+    },
+    {
+      "path": "skills/safe-text-io/scripts/read-text.mjs",
+      "sha256": "5f50525dccd0b3a02a36c5f042ca51cc0bf9182428e5f8814ecd3479a58962ec"
+    },
+    {
+      "path": "skills/safe-text-io/scripts/replace-ascii-bytes.mjs",
+      "sha256": "019432c806fca5ba164d1ce33e5ce60cc8d26b6760d0da45ed2ebb8ada7d7140"
+    },
+    {
+      "path": "skills/safe-text-io/scripts/transcode-text.mjs",
+      "sha256": "0a580ce6cc2fd2c2d709206ecfd785f528b15f9f0f6abd6b5bd78aa42b03e10a"
+    },
+    {
+      "path": "skills/safe-text-io/SKILL.md",
+      "sha256": "d0bd02f0b1d41c0793d3653e643adc9d2c5778076da4927b84fd70a126f5ec04"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "ba57e7c7f71876d645bcdd9fb070f2dea8e6db5ed284a7e3d85c6b7d2409fef1"
+    }
+  ]
+}

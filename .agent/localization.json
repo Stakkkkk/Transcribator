@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "projectRoot": "${REPOSITORY_ROOT}",
+  "paths": {
+    "artifactsInput": "${PROJECT_ROOT}/artefacts/in",
+    "artifactsOutput": "${PROJECT_ROOT}/artefacts/out",
+    "agentState": "${PROJECT_ROOT}/.agent",
+    "tempRoot": "${TEMP}/transcribator"
+  },
+  "tools": {
+    "ffmpegCommands": [
+      "ffmpeg.exe",
+      "ffmpeg"
+    ],
+    "ffmpegPaths": [
+      "${FFMPEG_PATH}",
+      "${PROGRAMFILES}/DownloadHelper CoApp/ffmpeg.exe"
+    ],
+    "whisperCliCommands": [
+      "whisper-cli.exe",
+      "whisper-cli"
+    ],
+    "whisperCliPaths": [
+      "${WHISPER_CLI_PATH}",
+      "${LOCALAPPDATA}/CodexTools/whisper.cpp/Release/whisper-cli.exe",
+      "${PROJECT_ROOT}/tools/whisper.cpp/Release/whisper-cli.exe",
+      "${PROJECT_ROOT}/.agent/tools/whisper.cpp/Release/whisper-cli.exe"
+    ],
+    "whisperModelPaths": [
+      "${WHISPER_MODEL_PATH}",
+      "${LOCALAPPDATA}/CodexTools/whisper.cpp/models/ggml-small-q5_1.bin",
+      "${PROJECT_ROOT}/tools/whisper.cpp/models/ggml-small-q5_1.bin",
+      "${PROJECT_ROOT}/.agent/tools/whisper.cpp/models/ggml-small-q5_1.bin"
+    ]
+  },
+  "transcriptionDefaults": {
+    "language": "ru",
+    "threadsMax": 8,
+    "beamSize": 1,
+    "bestOf": 1
+  }
+}

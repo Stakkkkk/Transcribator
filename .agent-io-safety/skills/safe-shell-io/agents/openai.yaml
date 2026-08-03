@@ -1,0 +1,4 @@
+interface:
+  display_name: "Safe Shell I/O"
+  short_description: "Run commands without quoting or encoding traps"
+  default_prompt: "Use $safe-shell-io to execute this command safely with exact arguments."

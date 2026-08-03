@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "node .agent-io-safety/examples/cursor-hooks/io-safety-hook.mjs --event beforeShellExecution",
+        "timeout": 15,
+        "failClosed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../schemas/command-spec.schema.json",
+  "command": "ssh",
+  "args": [
+    "user@windows-host",
+    "powershell",
+    "-NoProfile",
+    "-NonInteractive",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-Command",
+    "-"
+  ],
+  "cwd": ".",
+  "stdinFile": "windows-powershell-ssh-stdin.ps1",
+  "stdoutEncoding": "utf8",
+  "stderrEncoding": "utf8",
+  "timeoutMs": 30000
+}
